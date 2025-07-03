@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemExpenses"
+        android:icon="@drawable/addexpenses"
+        android:title="Expenses"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemBudgeting"
+        android:icon="@drawable/budgeting"
+        android:title="Budgeting"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemReport"
+        android:icon="@drawable/report"
+        android:title="Report"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemProfile"
+        android:icon="@drawable/profile"
+        android:title="Profile"
+        app:showAsAction="always" />
+</menu>
