@@ -47,11 +47,7 @@ public final class ExpensesDao_Impl implements ExpensesDao {
         } else {
           stmt.bindString(2, value.getIdBudgeting());
         }
-        if (value.getTanggal() == null) {
-          stmt.bindNull(3);
-        } else {
-          stmt.bindString(3, value.getTanggal());
-        }
+        stmt.bindLong(3, value.getTanggal());
         if (value.getNominal() == null) {
           stmt.bindNull(4);
         } else {
@@ -130,12 +126,8 @@ public final class ExpensesDao_Impl implements ExpensesDao {
         } else {
           _tmpIdBudgeting = _cursor.getString(_cursorIndexOfIdBudgeting);
         }
-        final String _tmpTanggal;
-        if (_cursor.isNull(_cursorIndexOfTanggal)) {
-          _tmpTanggal = null;
-        } else {
-          _tmpTanggal = _cursor.getString(_cursorIndexOfTanggal);
-        }
+        final long _tmpTanggal;
+        _tmpTanggal = _cursor.getLong(_cursorIndexOfTanggal);
         final Integer _tmpNominal;
         if (_cursor.isNull(_cursorIndexOfNominal)) {
           _tmpNominal = null;
@@ -195,12 +187,8 @@ public final class ExpensesDao_Impl implements ExpensesDao {
         } else {
           _tmpIdBudgeting = _cursor.getString(_cursorIndexOfIdBudgeting);
         }
-        final String _tmpTanggal;
-        if (_cursor.isNull(_cursorIndexOfTanggal)) {
-          _tmpTanggal = null;
-        } else {
-          _tmpTanggal = _cursor.getString(_cursorIndexOfTanggal);
-        }
+        final long _tmpTanggal;
+        _tmpTanggal = _cursor.getLong(_cursorIndexOfTanggal);
         final Integer _tmpNominal;
         if (_cursor.isNull(_cursorIndexOfNominal)) {
           _tmpNominal = null;

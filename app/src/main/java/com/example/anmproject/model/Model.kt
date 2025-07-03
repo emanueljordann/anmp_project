@@ -25,7 +25,7 @@ data class Expenses(
     @ColumnInfo(name="idBudgeting")
     var idBudgeting:String?,
     @ColumnInfo(name="tanggal")
-    var tanggal:String?,
+    var tanggal:Long,
     @ColumnInfo(name="nominal")
     var nominal:Int?,
     @ColumnInfo(name="deskripsi")

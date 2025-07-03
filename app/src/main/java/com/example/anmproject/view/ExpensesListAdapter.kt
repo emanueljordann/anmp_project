@@ -8,6 +8,9 @@ import com.example.anmproject.databinding.ExpensesListItemBinding
 import com.example.anmproject.model.Budgeting
 import com.example.anmproject.model.Expenses
 import java.text.DecimalFormat
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 import kotlin.math.exp
 
 class ExpensesListAdapter (val expensesList:ArrayList<Expenses>,val listName: ArrayList<String>)
@@ -22,16 +25,13 @@ class ExpensesListAdapter (val expensesList:ArrayList<Expenses>,val listName: Ar
         return ExpensesViewHolder(binding)
 
     }
-    fun formatter(n: Int) =
-        DecimalFormat("#,###")
-            .format(n)
-            .replace(",", ".")
 
     override fun onBindViewHolder(
         holder: ExpensesViewHolder,
         position: Int
     ) {
-        val tanggal = expensesList[position].tanggal
+        val tanggal = dateConvert(expensesList[position].tanggal)
+
         val kategori = listName[expensesList[position].idBudgeting.toString().toInt()-1]
         val expens = expensesList[position].nominal.toString().toInt()
 
@@ -52,8 +52,16 @@ class ExpensesListAdapter (val expensesList:ArrayList<Expenses>,val listName: Ar
         expensesList.addAll(newExpensesList)
         notifyDataSetChanged()
     }
+    fun dateConvert(tanggal:kotlin.Long):String{
+        val date = Date(tanggal * 1000)
+        val dateFormat: String = SimpleDateFormat("MM dd, yyyy hh:mma", Locale.ROOT).format(date)
+        return dateFormat
+    }
 
-
+    fun formatter(n: Int) =
+        DecimalFormat("#,###")
+            .format(n)
+            .replace(",", ".")
 
     override fun getItemCount(): Int {
         return expensesList.size

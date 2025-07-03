@@ -44,10 +44,10 @@ public final class UserDatabase_Impl extends UserDatabase {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
         _db.execSQL("CREATE TABLE IF NOT EXISTS `User` (`username` TEXT, `firstName` TEXT, `lastName` TEXT, `password` TEXT, `uuid` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)");
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `Expenses` (`idUser` TEXT, `idBudgeting` TEXT, `tanggal` TEXT, `nominal` INTEGER, `deskripsi` TEXT, `uuid` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `Expenses` (`idUser` TEXT, `idBudgeting` TEXT, `tanggal` INTEGER NOT NULL, `nominal` INTEGER, `deskripsi` TEXT, `uuid` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS `Budgeting` (`idUser` TEXT, `name` TEXT, `budget` INTEGER, `uuid` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '55de0be3b3d0ff27912f13ad59b857f4')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '8fc2cc3906b72f59b671a4e28c2bb141')");
       }
 
       @Override
@@ -111,7 +111,7 @@ public final class UserDatabase_Impl extends UserDatabase {
         final HashMap<String, TableInfo.Column> _columnsExpenses = new HashMap<String, TableInfo.Column>(6);
         _columnsExpenses.put("idUser", new TableInfo.Column("idUser", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsExpenses.put("idBudgeting", new TableInfo.Column("idBudgeting", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
-        _columnsExpenses.put("tanggal", new TableInfo.Column("tanggal", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsExpenses.put("tanggal", new TableInfo.Column("tanggal", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsExpenses.put("nominal", new TableInfo.Column("nominal", "INTEGER", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsExpenses.put("deskripsi", new TableInfo.Column("deskripsi", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsExpenses.put("uuid", new TableInfo.Column("uuid", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
@@ -140,7 +140,7 @@ public final class UserDatabase_Impl extends UserDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "55de0be3b3d0ff27912f13ad59b857f4", "bbe87f5d068137c9c6c0555317c1bb38");
+    }, "8fc2cc3906b72f59b671a4e28c2bb141", "563dc38e18fa1f4641fb8adc53a8fd59");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

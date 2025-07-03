@@ -60,9 +60,9 @@ class NewExpensesFragment : Fragment() {
         viewModelBudgeting = ViewModelProvider(this).get(BudgetingListViewModel::class.java)
         viewModelBudgeting.refresh(userId)
         observeViewModelBudgeting()
-        val currentDate: String? =
-            SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(Date())
-        binding.textTanggal.text=currentDate
+        val currentDate:Long = System.currentTimeMillis() / 1000L;
+
+        binding.textTanggal.text=dateConvert(currentDate)
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonAdd.setOnClickListener {
@@ -142,5 +142,9 @@ class NewExpensesFragment : Fragment() {
         DecimalFormat("#,###")
             .format(n)
             .replace(",", ".")
-
+    fun dateConvert(tanggal:kotlin.Long):String{
+        val date = Date(tanggal * 1000)
+        val dateFormat: String = SimpleDateFormat("MM dd, yyyy hh:mma", Locale.ROOT).format(date)
+        return dateFormat
+    }
 }
