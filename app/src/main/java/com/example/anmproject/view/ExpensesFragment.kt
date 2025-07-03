@@ -68,15 +68,15 @@ class ExpensesFragment : Fragment() {
     }
     fun observeViewModel() {
         viewModel.expensesLD.observe(viewLifecycleOwner, Observer {
-            Log.d("cek expenses",it.toString())
-            Log.d("cek budget",listOfBudgetName[0].toString())
-
-            expensesListAdapter.updateStudentList(it,listOfBudgetName)
             if(it.isEmpty()) {
                 binding.recViewExpenses?.visibility = View.GONE
                 binding.textEror?.visibility = View.VISIBLE
                 binding.textEror.setText("Your Budget still empty.")
             } else {
+                Log.d("cek expenses",it.toString())
+                Log.d("cek budget",listOfBudgetName[0].toString())
+
+                expensesListAdapter.updateStudentList(it,listOfBudgetName)
                 binding.textEror?.visibility = View.GONE
                 binding.recViewExpenses?.visibility = View.VISIBLE
             }
