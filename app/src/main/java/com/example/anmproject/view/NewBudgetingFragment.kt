@@ -39,13 +39,19 @@ class NewBudgetingFragment : Fragment() {
         )
         viewModel =
             ViewModelProvider(this).get(DetailBudgetingViewModel::class.java)
+        viewModelExpenses=
+            ViewModelProvider(this).get(ExpensesListViewModel::class.java)
         return binding.root
+
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val nominal = NewBudgetingFragmentArgs.fromBundle(requireArguments()).nominal
-        val nama = NewBudgetingFragmentArgs.fromBundle(requireArguments()).budgetName
+        var idBudget = 0
         if(NewBudgetingFragmentArgs.fromBundle(requireArguments()).newBudget==false) {
+            val nominal = NewBudgetingFragmentArgs.fromBundle(requireArguments()).nominal
+            val nama = NewBudgetingFragmentArgs.fromBundle(requireArguments()).budgetName
+            idBudget = NewBudgetingFragmentArgs.fromBundle(requireArguments()).id.toString().toInt()
+            observeViewModel(idBudget)
             binding.buttonEdit?.visibility = View.VISIBLE
             binding.buttonEdit?.isEnabled = true
             binding.buttonAddNewBudget?.visibility = View.GONE
@@ -63,14 +69,13 @@ class NewBudgetingFragment : Fragment() {
             requireContext().getSharedPreferences("SETTING", Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
         val userId = sharedPreferences.getString("uuid","")
-        val idBudget = NewBudgetingFragmentArgs.fromBundle(requireArguments()).id
-        val newBudget=binding.textNominalNewBudget.text.toString().toInt()
-        val newName = binding.textNewBudgeting.text.toString()
 
         viewModelExpenses.selectExpenses(userId.toString())
-        observeViewModel(idBudget.toString().toInt())
+
 
         binding.buttonAddNewBudget.setOnClickListener {
+            val newBudget=binding.textNominalNewBudget.text.toString().toInt()
+            val newName = binding.textNewBudgeting.text.toString()
             if(newBudget<0){
                 Toast.makeText(view.context, "Error Nominal Tidak Boleh Negatif", Toast.LENGTH_LONG).show()
             }else{
@@ -87,7 +92,8 @@ class NewBudgetingFragment : Fragment() {
         }
 
         binding.buttonEdit.setOnClickListener {
-
+            val newBudget=binding.textNominalNewBudget.text.toString().toInt()
+            val newName = binding.textNewBudgeting.text.toString()
             if(totalExpens>newBudget){
                 Toast.makeText(view.context, "Error ! Expenses lebih besar dari pada budget", Toast.LENGTH_LONG).show()
             }else{
