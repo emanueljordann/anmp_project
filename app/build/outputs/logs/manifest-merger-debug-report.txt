@@ -1,0 +1,404 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.databinding:databinding-adapters:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\18b8dd86229ed97e768ee6483b29494a\transformed\databinding-adapters-8.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-ktx:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\bf658c5d183a5b4be0e0ca607dcbf7d7\transformed\databinding-ktx-8.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6fbb6e933bd518d02583c407b3732f4d\transformed\databinding-runtime-8.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5ab51c45ed1c67966b2412b42c7211d9\transformed\viewbinding-8.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\441aa3b5c85770509a09d077174c653f\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\420a63bf6854ccbf7839630def07f30a\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\57f7b433110992d015fb12ed5956f4d4\transformed\navigation-fragment-2.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9fd546e29a4e698965cbae83c7052307\transformed\navigation-fragment-ktx-2.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9d9f21bd39d32d4f800e02ce1ea55558\transformed\navigation-ui-ktx-2.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\2a237ce78d64e7c55a6558656997fe74\transformed\navigation-ui-2.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1cd9c910eb43f262f836344588dfb763\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4e8f941723be8cdf55d97fe06cdd08e1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9da892ca1e58971cb38b17f6ed106385\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\d4f581b56a753fc8c7bd1a4b8d6e7a65\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\db45a55703e38451500c923c2f10e5b5\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\reyna\.gradle\caches\8.11.1\transforms\15873a2374c8105a22c44aa68c10d15a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\reyna\.gradle\caches\8.11.1\transforms\551e5a86aac7b70e2083e980ca8320e2\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a9c043160755e2e8e3929d69721ef32a\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\fb3b9091ebde7e7a8f0a84d69a061583\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f6f0dd48a712682ed2017961773ca69c\transformed\room-ktx-2.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\3bc44973a51f98222745fec108d349f9\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a2246f191c24b429a3446ef44c5422c4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cda2195363a83d120c9bf3753f56435f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\dcbc1148e149dcb6d7ec06e4d607a838\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5bf3a209b7d2017d9d92300d6b2a3b61\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a048398e6bca968cb17e17c9ddc6dc42\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1d9b8ee206fd924bf89b2d27f11915b2\transformed\lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6d635a668895c06c20c4d277b02e1be7\transformed\lifecycle-service-2.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1539bd76007c4b5847c62c3de99417c0\transformed\lifecycle-livedata-core-ktx-2.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a897841793a7a64b186198d46fa2c702\transformed\lifecycle-livedata-core-2.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\16f3307f13664b7f34913cfe82c8186e\transformed\lifecycle-livedata-2.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b2329be4a1bd40171f23a8d744524fcb\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\34ae8956065671d7a5515bf94570b520\transformed\lifecycle-viewmodel-2.9.0\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\8f247b98186261a63505b613566fa87f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\dd3d88c094c56ec563ca129213191fe6\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6df45007152f029151592f9bb854fbd8\transformed\savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9bb93ee8a0d6941b7db4b77115a96a37\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\da9c1c0d3c0b9e857f84007810d8a29a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\2ff7648799a393b791f022bd554a6b9b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\31a7f5a4936b417ce0ccb376e9c3d38b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\c0f9c22929f6f58e92ba7c1a0193b0b6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f5cd7c96e70de3f161beab37e9183521\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\69812f2323729b21d2f976fb03717370\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a944fc06ea0cb8df1d9b88c59da5825e\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b745346c1021b343dc9e25892a69a7c6\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cabd76415ae2e6caa73a4c0d19bba566\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1a709c6635af11cb7a64b52c5bd56693\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f79d47b02fd2f6c2e6199daf0f71d544\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0f182b31b846745287dcbf012bcc816a\transformed\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\8cedf832dbe9c599aa418a07a528195d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cbb940cf57639c198a07fb847fa8291e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\ff882d0311811aeee3ddcb9e90679bf0\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\7f1dbc2369e4c022d0133c30ed2d60f4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b1ab28e4c72e656a76b7ec07fc3866b4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4475f78080e0962e6820798f4c53bdbe\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5a60fcdb21f36256530326a86aad3d02\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6ad495d5aaabca834b485ef6dc05826b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\7373a753219d2edfb63f1726243ad630\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\d7d5ac6197e74002997b039bb97b6088\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\547811d511b74255fe378e8b5cfe1817\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\745cdba49867897ca8e73f450757a65a\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:5:5-27:19
+INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1cd9c910eb43f262f836344588dfb763\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1cd9c910eb43f262f836344588dfb763\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4e8f941723be8cdf55d97fe06cdd08e1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4e8f941723be8cdf55d97fe06cdd08e1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cbb940cf57639c198a07fb847fa8291e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cbb940cf57639c198a07fb847fa8291e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4475f78080e0962e6820798f4c53bdbe\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4475f78080e0962e6820798f4c53bdbe\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:13:9-48
+	android:dataExtractionRules
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.example.anmproject.view.BudgetActivity
+ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:16:13-48
+activity#com.example.anmproject.view.MainActivity
+ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:exported
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:19:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\18b8dd86229ed97e768ee6483b29494a\transformed\databinding-adapters-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\18b8dd86229ed97e768ee6483b29494a\transformed\databinding-adapters-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\bf658c5d183a5b4be0e0ca607dcbf7d7\transformed\databinding-ktx-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\bf658c5d183a5b4be0e0ca607dcbf7d7\transformed\databinding-ktx-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6fbb6e933bd518d02583c407b3732f4d\transformed\databinding-runtime-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6fbb6e933bd518d02583c407b3732f4d\transformed\databinding-runtime-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5ab51c45ed1c67966b2412b42c7211d9\transformed\viewbinding-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5ab51c45ed1c67966b2412b42c7211d9\transformed\viewbinding-8.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\441aa3b5c85770509a09d077174c653f\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\441aa3b5c85770509a09d077174c653f\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\420a63bf6854ccbf7839630def07f30a\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\420a63bf6854ccbf7839630def07f30a\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\57f7b433110992d015fb12ed5956f4d4\transformed\navigation-fragment-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\57f7b433110992d015fb12ed5956f4d4\transformed\navigation-fragment-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9fd546e29a4e698965cbae83c7052307\transformed\navigation-fragment-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9fd546e29a4e698965cbae83c7052307\transformed\navigation-fragment-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9d9f21bd39d32d4f800e02ce1ea55558\transformed\navigation-ui-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9d9f21bd39d32d4f800e02ce1ea55558\transformed\navigation-ui-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\2a237ce78d64e7c55a6558656997fe74\transformed\navigation-ui-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\2a237ce78d64e7c55a6558656997fe74\transformed\navigation-ui-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1cd9c910eb43f262f836344588dfb763\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1cd9c910eb43f262f836344588dfb763\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4e8f941723be8cdf55d97fe06cdd08e1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4e8f941723be8cdf55d97fe06cdd08e1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9da892ca1e58971cb38b17f6ed106385\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9da892ca1e58971cb38b17f6ed106385\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\d4f581b56a753fc8c7bd1a4b8d6e7a65\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\d4f581b56a753fc8c7bd1a4b8d6e7a65\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\db45a55703e38451500c923c2f10e5b5\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\db45a55703e38451500c923c2f10e5b5\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\reyna\.gradle\caches\8.11.1\transforms\15873a2374c8105a22c44aa68c10d15a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\reyna\.gradle\caches\8.11.1\transforms\15873a2374c8105a22c44aa68c10d15a\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\reyna\.gradle\caches\8.11.1\transforms\551e5a86aac7b70e2083e980ca8320e2\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\reyna\.gradle\caches\8.11.1\transforms\551e5a86aac7b70e2083e980ca8320e2\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a9c043160755e2e8e3929d69721ef32a\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a9c043160755e2e8e3929d69721ef32a\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\fb3b9091ebde7e7a8f0a84d69a061583\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\fb3b9091ebde7e7a8f0a84d69a061583\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f6f0dd48a712682ed2017961773ca69c\transformed\room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f6f0dd48a712682ed2017961773ca69c\transformed\room-ktx-2.5.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\3bc44973a51f98222745fec108d349f9\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\3bc44973a51f98222745fec108d349f9\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a2246f191c24b429a3446ef44c5422c4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a2246f191c24b429a3446ef44c5422c4\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cda2195363a83d120c9bf3753f56435f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cda2195363a83d120c9bf3753f56435f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\dcbc1148e149dcb6d7ec06e4d607a838\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\dcbc1148e149dcb6d7ec06e4d607a838\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5bf3a209b7d2017d9d92300d6b2a3b61\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5bf3a209b7d2017d9d92300d6b2a3b61\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a048398e6bca968cb17e17c9ddc6dc42\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a048398e6bca968cb17e17c9ddc6dc42\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1d9b8ee206fd924bf89b2d27f11915b2\transformed\lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1d9b8ee206fd924bf89b2d27f11915b2\transformed\lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6d635a668895c06c20c4d277b02e1be7\transformed\lifecycle-service-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6d635a668895c06c20c4d277b02e1be7\transformed\lifecycle-service-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1539bd76007c4b5847c62c3de99417c0\transformed\lifecycle-livedata-core-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1539bd76007c4b5847c62c3de99417c0\transformed\lifecycle-livedata-core-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a897841793a7a64b186198d46fa2c702\transformed\lifecycle-livedata-core-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a897841793a7a64b186198d46fa2c702\transformed\lifecycle-livedata-core-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\16f3307f13664b7f34913cfe82c8186e\transformed\lifecycle-livedata-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\16f3307f13664b7f34913cfe82c8186e\transformed\lifecycle-livedata-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b2329be4a1bd40171f23a8d744524fcb\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b2329be4a1bd40171f23a8d744524fcb\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\34ae8956065671d7a5515bf94570b520\transformed\lifecycle-viewmodel-2.9.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\34ae8956065671d7a5515bf94570b520\transformed\lifecycle-viewmodel-2.9.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\8f247b98186261a63505b613566fa87f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\8f247b98186261a63505b613566fa87f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\dd3d88c094c56ec563ca129213191fe6\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\dd3d88c094c56ec563ca129213191fe6\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6df45007152f029151592f9bb854fbd8\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6df45007152f029151592f9bb854fbd8\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9bb93ee8a0d6941b7db4b77115a96a37\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\9bb93ee8a0d6941b7db4b77115a96a37\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\da9c1c0d3c0b9e857f84007810d8a29a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\da9c1c0d3c0b9e857f84007810d8a29a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\2ff7648799a393b791f022bd554a6b9b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\2ff7648799a393b791f022bd554a6b9b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\31a7f5a4936b417ce0ccb376e9c3d38b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\31a7f5a4936b417ce0ccb376e9c3d38b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\c0f9c22929f6f58e92ba7c1a0193b0b6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\c0f9c22929f6f58e92ba7c1a0193b0b6\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f5cd7c96e70de3f161beab37e9183521\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f5cd7c96e70de3f161beab37e9183521\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\69812f2323729b21d2f976fb03717370\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\69812f2323729b21d2f976fb03717370\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a944fc06ea0cb8df1d9b88c59da5825e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\a944fc06ea0cb8df1d9b88c59da5825e\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b745346c1021b343dc9e25892a69a7c6\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b745346c1021b343dc9e25892a69a7c6\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cabd76415ae2e6caa73a4c0d19bba566\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cabd76415ae2e6caa73a4c0d19bba566\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1a709c6635af11cb7a64b52c5bd56693\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1a709c6635af11cb7a64b52c5bd56693\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f79d47b02fd2f6c2e6199daf0f71d544\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\f79d47b02fd2f6c2e6199daf0f71d544\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0f182b31b846745287dcbf012bcc816a\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0f182b31b846745287dcbf012bcc816a\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\8cedf832dbe9c599aa418a07a528195d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\8cedf832dbe9c599aa418a07a528195d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cbb940cf57639c198a07fb847fa8291e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\cbb940cf57639c198a07fb847fa8291e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\ff882d0311811aeee3ddcb9e90679bf0\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\ff882d0311811aeee3ddcb9e90679bf0\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\7f1dbc2369e4c022d0133c30ed2d60f4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\7f1dbc2369e4c022d0133c30ed2d60f4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b1ab28e4c72e656a76b7ec07fc3866b4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\b1ab28e4c72e656a76b7ec07fc3866b4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4475f78080e0962e6820798f4c53bdbe\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4475f78080e0962e6820798f4c53bdbe\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5a60fcdb21f36256530326a86aad3d02\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\5a60fcdb21f36256530326a86aad3d02\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6ad495d5aaabca834b485ef6dc05826b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\6ad495d5aaabca834b485ef6dc05826b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\7373a753219d2edfb63f1726243ad630\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\7373a753219d2edfb63f1726243ad630\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\d7d5ac6197e74002997b039bb97b6088\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\d7d5ac6197e74002997b039bb97b6088\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\547811d511b74255fe378e8b5cfe1817\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\547811d511b74255fe378e8b5cfe1817\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\745cdba49867897ca8e73f450757a65a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\745cdba49867897ca8e73f450757a65a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\reyna\AndroidStudioProjects\ANMProject\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\1c51f477352addded2596049739e2a41\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\e6a2b3a3b5021a1c77135bdcaed1b73a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4475f78080e0962e6820798f4c53bdbe\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\4475f78080e0962e6820798f4c53bdbe\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\48492430a211e3d9b6f934267c562938\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\085ef92bdfad43cbf1a7ac57f138fbae\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.anmproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.anmproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\reyna\.gradle\caches\8.11.1\transforms\746be861bb01c19cea7c1059a5d61333\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\reyna\.gradle\caches\8.11.1\transforms\0c87f2062e47175a64d9b885811a56d9\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
