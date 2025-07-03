@@ -39,11 +39,11 @@ class LoginFragment : Fragment() {
 
         val sharedPreferences: SharedPreferences =
             requireContext().getSharedPreferences("SETTING", Context.MODE_PRIVATE)
-//        val ceklogin = sharedPreferences.getBoolean("isLoggedIn",false)
-//        if(ceklogin==true){
-//            requireContext().startActivity(Intent(requireContext(),
-//                BudgetActivity::class.java))
-//        }
+        val ceklogin = sharedPreferences.getBoolean("isLoggedIn",false)
+        if(ceklogin==true){
+            requireContext().startActivity(Intent(requireContext(),
+                BudgetActivity::class.java))
+        }
 
 
         binding.buttonLogin.setOnClickListener {

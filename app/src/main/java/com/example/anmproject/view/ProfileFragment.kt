@@ -48,9 +48,12 @@ class ProfileFragment : Fragment(),UserEditListener {
     }
     fun observeViewModel(){
         viewModel.userLD.observe(viewLifecycleOwner, Observer {
-            user=User("","","","")
-            user = it
-            Log.d("cekUser",it.toString())
+            if(it != null)
+            {
+                user=User("","","","")
+                user = it
+                Log.d("cekUser",it.toString())
+            }
         })
     }
 
