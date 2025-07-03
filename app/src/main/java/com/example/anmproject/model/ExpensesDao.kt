@@ -14,7 +14,7 @@ interface ExpensesDao {
     @Query("SELECT * FROM expenses")
     fun selectAllExpenses(): List<Expenses>
 
-    @Query("SELECT * FROM expenses WHERE idUser= :id")
+    @Query("SELECT * FROM expenses WHERE idUser= :id ORDER BY tanggal DESC")
     fun selectExpenses(id:String): List<Expenses>
 
     @Query("SELECT SUM(nominal) FROM expenses WHERE idUser= :id AND idBudgeting=:budgetId")
